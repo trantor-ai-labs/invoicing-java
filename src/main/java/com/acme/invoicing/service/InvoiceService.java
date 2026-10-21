@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 import com.acme.invoicing.model.Invoice;
 import com.acme.invoicing.model.InvoiceLine;

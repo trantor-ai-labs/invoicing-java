@@ -3,7 +3,7 @@ package com.acme.invoicing.support;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
 public final class LifecycleRunner {
     private LifecycleRunner() {

@@ -33,6 +33,8 @@ public final class Cli {
     }
 
     public static void main(String[] args) throws UnsupportedEncodingException {
+        // Java 9+ defaults to CLDR locale data; keep the Java 8 number formats of the output.
+        System.setProperty("java.locale.providers", "COMPAT");
         PrintStream out = new PrintStream(System.out, true, "UTF-8");
         PrintStream err = new PrintStream(System.err, true, "UTF-8");
         int code = run(args, out, err);

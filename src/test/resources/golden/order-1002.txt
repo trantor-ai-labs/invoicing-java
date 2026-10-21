@@ -1,0 +1,17 @@
+INVOICE INV-1002
+Date:     2024-03-11
+Customer: Alpenwerk AG (C-200)
+Country:  CH
+=================================================================
+SKU      Description               Qty   Unit price         Total
+-----------------------------------------------------------------
+BLT-12   Mountain bolt box          40   SFr. 12.35   SFr. 494.00
+GAU-03   Precision gauge             2 SFr. 1'480.00 SFr. 2'960.00
+-----------------------------------------------------------------
+Subtotal                                            SFr. 3'454.00
+Discount 10%                                          SFr.-345.40
+Net                                                 SFr. 3'108.60
+VAT 7.7%                                              SFr. 239.36
+=================================================================
+TOTAL CHF                                           SFr. 3'347.96
+Checksum: algUVUM29eHgwSeKcNMJTENfpfkZE/nZJEOHhuQJ9fs=

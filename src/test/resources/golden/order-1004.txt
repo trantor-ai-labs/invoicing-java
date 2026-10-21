@@ -1,0 +1,17 @@
+INVOICE INV-1004
+Date:     2024-04-15
+Customer: Thames Traders (C-400)
+Country:  GB
+=================================================================
+SKU      Description               Qty   Unit price         Total
+-----------------------------------------------------------------
+CLP-04   Brass clip                  3       £15.00        £44.99
+CAP-11   Cap nut                    25        £4.10       £102.50
+-----------------------------------------------------------------
+Subtotal                                                  £147.49
+Discount 0%                                                 £0.00
+Net                                                       £147.49
+VAT 20%                                                    £29.50
+=================================================================
+TOTAL GBP                                                 £176.99
+Checksum: +k1t8oKkbqX4azRyA3TvVLZd3MqfvNrETKQnkawuEKM=

@@ -1,0 +1,17 @@
+INVOICE INV-1003
+Date:     2024-04-02
+Customer: Lone Star Supply (C-300)
+Country:  US
+=================================================================
+SKU      Description               Qty   Unit price         Total
+-----------------------------------------------------------------
+PIN-50   Steel pin                  60        $8.25       $495.00
+TAP-09   Marking tape                5       $19.95        $99.75
+-----------------------------------------------------------------
+Subtotal                                                  $594.75
+Discount 7%                                              ($41.63)
+Net                                                       $553.12
+VAT 0%                                                      $0.00
+=================================================================
+TOTAL USD                                                 $553.12
+Checksum: Svpoxy1ZgO563rI1xG+Hc/JIvpH/tqVGQNptnznI69A=

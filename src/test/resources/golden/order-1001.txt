@@ -1,0 +1,18 @@
+INVOICE INV-1001
+Date:     2024-03-04
+Customer: Maison Dupont (C-100)
+Country:  FR
+=================================================================
+SKU      Description               Qty   Unit price         Total
+-----------------------------------------------------------------
+WID-01   Widget, large              12      19,99 €      239,88 €
+GAD-07   Gadget                      3     249,50 €      748,50 €
+SVC-02   Installation "express"      1   1 250,00 €    1 250,00 €
+-----------------------------------------------------------------
+Subtotal                                               2 238,38 €
+Discount 10%                                            -223,84 €
+Net                                                    2 014,54 €
+VAT 20%                                                  402,91 €
+=================================================================
+TOTAL EUR                                              2 417,45 €
+Checksum: rqP66u0eJnW4fa4wiOxDp7DGHjbXT32k9E31UTF2bV8=

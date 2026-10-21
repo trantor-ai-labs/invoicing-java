@@ -1,0 +1,3 @@
+order_id,order_date,customer_id,customer_name,country,currency,sku,description,quantity,unit_price
+1002,2024-03-11,C-200,Alpenwerk AG,CH,CHF,BLT-12,Mountain bolt box,40,12.35
+1002,2024-03-11,C-200,Alpenwerk AG,CH,CHF,GAU-03,Precision gauge,2,1480.00

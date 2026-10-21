@@ -1,0 +1,3 @@
+order_id,order_date,customer_id,customer_name,country,currency,sku,description,quantity,unit_price
+1005,2024-05-06,C-100,Maison Dupont,FR,EUR,WID-01,"Widget, large",4,19.99
+1005,2024-05-06,C-100,Maison Dupont,FR,EUR,TAP-09,Marking tape,1,35.00

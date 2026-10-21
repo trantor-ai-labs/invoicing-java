@@ -1,0 +1,4 @@
+order_id,order_date,customer_id,customer_name,country,currency,sku,description,quantity,unit_price
+1001,2024-03-04,C-100,Maison Dupont,FR,EUR,WID-01,"Widget, large",12,19.99
+1001,2024-03-04,C-100,Maison Dupont,FR,EUR,GAD-07,Gadget,3,249.50
+1001,2024-03-04,C-100,Maison Dupont,FR,EUR,SVC-02,"Installation ""express""",1,1250.00

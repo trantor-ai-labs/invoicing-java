@@ -1,0 +1,3 @@
+order_id,order_date,customer_id,customer_name,country,currency,sku,description,quantity,unit_price
+1004,2024-04-15,C-400,Thames Traders,GB,GBP,CLP-04,Brass clip,3,14.995
+1004,2024-04-15,C-400,Thames Traders,GB,GBP,CAP-11,Cap nut,25,4.10

@@ -1,15 +1,15 @@
 # invoicing-java
 
-A small order-to-invoice service in plain Java 8 and Maven, with no framework. It reads orders from
+A small order-to-invoice service in plain Java 17 and Maven, with no framework. It reads orders from
 CSV files, prices them (VAT by country, volume discounts, BigDecimal rounding), and writes the
 invoice as fixed-width text or as XML.
 
-This repository is the before-state of the Java 8 to 17 upgrade case study. It is upgraded by the
-platform, not by hand.
+The before-state of the Java 8 to 17 upgrade case study is the `java8` tag, not this branch. It is
+upgraded by the platform, not by hand.
 
 ## Build and test
 
-With Maven and a JDK 8 on the path:
+With Maven and a JDK 17 on the path:
 
 ```bash
 mvn -B verify
@@ -19,7 +19,7 @@ Or in Docker, without installing anything:
 
 ```bash
 docker run --rm -v "$PWD":/work -v invoicing-m2:/root/.m2 -w /work \
-  maven:3.9-eclipse-temurin-8 mvn -B verify
+  maven:3.9-eclipse-temurin-17 mvn -B verify
 ```
 
 `verify` runs the JUnit suite (reports in `target/surefire-reports`), writes the JaCoCo coverage
@@ -28,14 +28,14 @@ report to `target/site/jacoco`, and builds `target/invoicing.jar`.
 ## Run
 
 ```bash
-java -jar target/invoicing.jar render samples/order-1001.csv        # print the invoice
-java -jar target/invoicing.jar export-xml samples/order-1001.csv    # invoice as XML on stdout
-java -jar target/invoicing.jar export-xml samples/order-1001.csv out.xml
-java -jar target/invoicing.jar summary samples/                     # totals per customer
+java -Djava.locale.providers=COMPAT -jar target/invoicing.jar render samples/order-1001.csv        # print the invoice
+java -Djava.locale.providers=COMPAT -jar target/invoicing.jar export-xml samples/order-1001.csv    # invoice as XML on stdout
+java -Djava.locale.providers=COMPAT -jar target/invoicing.jar export-xml samples/order-1001.csv out.xml
+java -Djava.locale.providers=COMPAT -jar target/invoicing.jar summary samples/                     # totals per customer
 ```
 
 `./run.sh render samples/order-1001.csv` does the same and builds the jar first if it is missing.
-The `Dockerfile` packages the jar on `eclipse-temurin:8-jre`:
+The `Dockerfile` packages the jar on `eclipse-temurin:17-jre`:
 
 ```bash
 docker build -t invoicing . && docker run --rm invoicing render samples/order-1002.csv

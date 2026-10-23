@@ -5,4 +5,4 @@ cd "$(dirname "$0")"
 if [ ! -f target/invoicing.jar ]; then
   mvn -B -q -DskipTests package
 fi
-exec java -jar target/invoicing.jar "$@"
+exec java -Djava.locale.providers=COMPAT -jar target/invoicing.jar "$@"
